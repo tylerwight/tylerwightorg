@@ -1,0 +1,19 @@
+{
+    "name": "playagamedammit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.0",
+        "milligram": "^1.4.1",
+        "node-fetch": "^3.3.2"
+    }
+}
