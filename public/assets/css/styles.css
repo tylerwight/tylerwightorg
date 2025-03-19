@@ -326,7 +326,6 @@ section {
     display: flex;
     height: 400px;
     width: 400px;
-    min-width: 400px;
     margin: 0 0;
   }
   
@@ -427,6 +426,7 @@ section {
   
   .about-pic {
     border-radius: 2rem;
+    max-width: none;
   }
   
   .arrow {
