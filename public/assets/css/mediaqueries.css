@@ -41,6 +41,7 @@
       width: 275px;
       height: 275px;
       margin: 0 auto 2rem;
+      justify-content: center;
     }
     .about-containers {
       margin-top: 0;
@@ -50,7 +51,7 @@
   @media screen and (max-width: 600px) {
     #contact,
     footer {
-      height: 40vh;
+      height: 20vh;
     }
     #profile {
       height: 83vh;

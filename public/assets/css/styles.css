@@ -367,6 +367,36 @@ section {
   }
   
 
+/* BUTTONS */
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  color: white;
+}
+
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
 
 
 
@@ -433,7 +463,7 @@ section {
   .experience-sub-title {
     color: white;
     font-weight: 100;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
   }
   
@@ -468,6 +498,7 @@ section {
   
   #projects {
     position: relative;
+
   }
   
   .color-container {
@@ -477,13 +508,15 @@ section {
   
   .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: max-content;
+    height: max-content;
+    max-width: 10rem;
   }
   
   .project-title {
     margin: 1rem;
     color: white;
+    font-weight: 300;
   }
   
 
@@ -529,13 +562,7 @@ section {
   }
 
 
+  .about-containers{
+    flex-wrap: wrap;
+  }
 
-
-
-
-
-
-
-
-
-  
