@@ -15,6 +15,9 @@
     display: none;
   }
   
+
+
+  /* NAV  */
   nav {
     position: absolute;
     text-align: center;
@@ -170,7 +173,7 @@
     flex-shrink: 0;
   }
   
-  /*# sourceMappingURL=style.css.map */
+
 
 
 
@@ -223,15 +226,18 @@ textarea:focus, input:focus {
   color: #ffffff;
 }
 
-/* Change the background color */
+
+
+/* GENERAL */
+
 body {
-    background-color: #2c2f34; /* Dark mode */
-    color: #f2f2f2; /* Light text */
+    background-color: #2c2f34;
+    color: #f2f2f2;
   }
   
-  /* Override primary button styles */
+
   .button, button {
-    background-color: #007bff; /* Blue */
+    background-color: #007bff;
     color: white;
     border-color: #0056b3;
   }
@@ -240,16 +246,14 @@ body {
     background-color: #0056b3;
   }
   
-  /* Change links */
   a {
-    color: white; /* Yellow */
+    color: white; 
   }
   
   a:hover {
     color: #007bff;
   }
   
-  /* Modify form elements */
   input, select, textarea {
     background-color: #34373c;
     color: #f2f2f2;
@@ -261,19 +265,16 @@ body {
     border-color: #ffcc00;
   }
   
-  /* Header and Navigation */
   header {
     background-color: #1b1c1d;
     color: white;
   }
   
-  /* Change footer */
   footer {
     background-color: #1b1c1d;
     color: #aaa;
   }
   
-  /* Table styles */
   table {
     background-color: #2c2f34;
     border: 1px solid #555;
@@ -348,7 +349,7 @@ section {
   }
   
   .title {
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
   }
   
@@ -357,6 +358,7 @@ section {
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
+    font-size: 3rem;
   }
 
   /* ICONS */
@@ -454,6 +456,7 @@ section {
     margin: auto 0;
   }
   
+  
   /* EXPERIENCE SECTION */
   
   #experience {
@@ -493,7 +496,15 @@ section {
   article .icon {
     cursor: default;
   }
+
+  .experience-article{
+    justify-content: flex-start;
+  }
   
+
+
+
+
   /* PROJECTS SECTION */
   
   #projects {
